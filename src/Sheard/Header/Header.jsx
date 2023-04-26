@@ -7,7 +7,6 @@ import Marquee from "react-fast-marquee";
 const Header = () => {
     return (
         <Container>
-
             <div className='text-center mb-2'>
                 <img src={logo} alt="" />
                 <p className='text-senecdary'><small>Journalism Without Fear or Favour</small></p>
@@ -18,7 +17,7 @@ const Header = () => {
                         I can be a React component, multiple React components, or just some text. !! I can be a React component, multiple React components, or just some text.
                     </Marquee>
 
-
+                    {/* Navbar Design */}
                 </div>
                 <div className='my-5'>
                     <Navbar className='rounded-2' collapseOnSelect expand="lg" bg="light" variant="light">
@@ -28,6 +27,7 @@ const Header = () => {
                             <Navbar.Collapse id="responsive-navbar-nav">
                                 <Nav className="mx-auto">
                                     <Nav.Link href="#features">Home</Nav.Link>
+                                    <Nav.Link href="#features">About</Nav.Link>
                                     <Nav.Link href="#pricing">Career</Nav.Link>
                                 </Nav>
                                 <Nav>
